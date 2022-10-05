@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#76E9F8">
+
+
+    <ImageView
+        android:id="@+id/ImageView2"
+        android:layout_width="145dp"
+        android:layout_height="134dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/foto" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:layout_margin="10sp"
+        android:text="BIODATA GURU"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Nama : NUR ALPIYAH S.pd"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="NIP : 196907042022212003"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_height="39dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Jenis Kelamin : Perempuan"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="55dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Tempat,Tanggal Lahir : Semarang 4 Juli 1969"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Alamat : Jln.Dong Biru Raya RT.07/RW.03 Genuk Sari Semarang"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="40dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="E-mail : nuralpiyahspd@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="39dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Pekerjaan : Guru Sejarah"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
+
+</android.support.constraint.ConstraintLayout>
